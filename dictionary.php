@@ -43,10 +43,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 echo '<div class="alert alert-warning" role="alert">Definition not found for the word.</div>';
             }
         } else {
-            echo '<div class="alert alert-danger" role="alert">Failed to fetch data. Please try again later.</div>';
+            echo '<div class="alert alert-danger" role="alert">Definition not found for the word.</div>';
         }
     } else {
-        echo '<div class="alert alert-danger" role="alert">Invalid word.</div>';
+        echo '<div class="alert alert-danger" role="alert">Definition not found for the word.</div>';
     }
 }
 ?>
