@@ -6,7 +6,7 @@
     <title>Dictionary</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-<body background="background.png" class="d-flex align-items-center justify-content-center bg-image" style="height: 100vh;">
+<body background="background.png" class="d-flex align-items-center justify-content-center bg-image img-fluid" style="height: 100vh;">
     <div class="container">
         <form method="post">
             <div class="form-group d-flex">
