@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             echo '<div class="alert alert-danger" role="alert">Failed to fetch data. Please try again later.</div>';
         }
     } else {
-        echo '<div class="alert alert-danger" role="alert">Invalid API key or word.</div>';
+        echo '<div class="alert alert-danger" role="alert">Invalid word.</div>';
     }
 }
 ?>
